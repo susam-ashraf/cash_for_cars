@@ -1,0 +1,196 @@
+/* ----------------- Start Header CSS------------------ */
+
+/* ----------------- Start navigation_menu CSS------------------ */
+
+.navbar-default {
+     background-color: transparent;
+     background: linear-gradient(#fff, #dedede);
+     border: none;
+     box-shadow: 0px 2px 8px #888888;
+}
+.navbar-default .navbar-nav>.active>a{
+background-color: #1bbc9b;
+}
+.navbar-default .navbar-brand img{
+    margin-top: -5px;
+}
+.navbar-default .navbar-brand{
+    font-family: 'Parisienne', cursive;
+    font-size: 24px;
+}
+.navbar-default .navbar-brand span{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand p{
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size:14px;
+	padding: 25px 17px;
+	transition: 0.5s;
+}
+.navbar-default .navbar-nav>li:nth-child(3)::after,.navbar-default .navbar-nav>li:nth-child(4)::after {
+    background: rgba(197, 197, 197, 0.8) none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 45%;
+    position: absolute;
+    top: 20px;
+    width: 2px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #dd0103;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #16a086;
+    border-color: #16a086;
+}
+.btn-primary:active:focus, .btn-primary:active:hover ,.btn-primary:hover ,.btn-primary:focus{
+    background-color: #16a086;
+    border-color: #16a086;
+	}
+
+#navigation-menu h4{
+ font-family: Lato-Bold;
+    font-size:20px;
+    margin-left: 60px;
+	margin-top: 16px;
+
+	line-height: 0;
+}
+#navigation-menu small{
+    font-family: Lato-Regular;
+    font-size:14px;
+    margin-left: 12px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+ border-color: transparent;
+}
+
+/* ----------------- end navigation_menu CSS------------------ */
+
+/* ----------------- start hero_img CSS------------------ */
+header{
+    background:#fff;
+    padding-bottom: 100px;
+}
+#hero_img img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+/* ----------------- end hero_img CSS------------------ */
+
+/* ----------------- end Header CSS------------------ */
+
+/* ----------------- start Contact_us CSS------------------ */
+#Contact_us{
+    padding-bottom: 45px;
+}
+#Contact_us h3{
+    font-size: 30px;
+    color: #585a60;
+}
+#Contact_us p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2a2d34;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+#Contact_us .form-control {
+    margin-bottom: 15px;
+    padding: 21px 12px;
+    background-color: #d0d5d9;
+    border: 1px solid #d0d5d9;
+    border-radius: 0px;
+}
+.btn-default {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+    color: #fff;
+    background-color: #800001;
+    border-color: #800001;
+    margin-top: 20px;
+}
+.btn {
+    border-radius: 0;
+    padding: 12px 143px;
+}
+
+/* ----------------- end Contact_us CSS------------------ */
+
+/* ----------------- start call_us CSS------------------ */
+
+#call_us{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background: linear-gradient(#760001,#db0103);
+    border-top: 5px solid #c0bfcc;
+    border-bottom: 5px solid #c0bfcc;
+    box-shadow: 0px 2px 8px #888888;
+    padding: 15px 5px;
+}
+#call_us h4{
+    font-size: 30px;
+    color: #fff;
+}
+#call_us span{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ef907c;
+}
+/* ----------------- end call_us CSS------------------ */
+
+/* ----------------- start car_imgs CSS------------------ */
+#car_imgs{
+    background: #fff;
+}
+#car_imgs img{
+    width: 100%;
+}
+
+/* ----------------- end car_imgs CSS------------------ */
+
+/* ----------------- start more_info CSS------------------ */
+
+#more_info{
+    background: #bd0103;
+}
+#more_info img{
+    margin-top: 85px; 
+}
+#more_info h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 125px;
+}
+#more_info p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1b1e26;
+    margin-top: 95px;
+}
+/* ----------------- end more_info CSS------------------ */
+
+/* ----------------- start footer CSS------------------ */
+#footer{
+    background: #1d2029;
+}
+#footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 125px;
+    color: #b7b7b7;
+}
+/* ----------------- end footer CSS------------------ */
+
+
